@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/beef/MyProject/ADDIM_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="addim_tb" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="3" />
+   <wvobject fp_name="/addim_tb/se_pc_immed" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">se_pc_immed[31:0]</obj_property>
+      <obj_property name="ObjectShortName">se_pc_immed[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/addim_tb/pc_4" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pc_4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_4[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/addim_tb/adder_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">adder_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">adder_out[31:0]</obj_property>
+   </wvobject>
+</wave_config>

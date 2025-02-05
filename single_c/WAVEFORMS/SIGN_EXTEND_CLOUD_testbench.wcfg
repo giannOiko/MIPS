@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/beef/MyProject/sign_extend_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="numeric_std" />
+            <top_module name="sign_extend_tb" />
+            <top_module name="std_logic_1164" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="3" />
+   <wvobject fp_name="/sign_extend_tb/instr_im" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">instr_im[15:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_im[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sign_extend_tb/immext" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">immext[1:0]</obj_property>
+      <obj_property name="ObjectShortName">immext[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sign_extend_tb/immed" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">immed[31:0]</obj_property>
+      <obj_property name="ObjectShortName">immed[31:0]</obj_property>
+   </wvobject>
+</wave_config>

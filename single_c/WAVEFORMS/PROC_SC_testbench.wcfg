@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/beef/MyProject/PROC_SC_TB_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="mypackage" />
+            <top_module name="numeric_std" />
+            <top_module name="proc_sc_tb" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_textio" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="textio" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="12" />
+   <wvobject fp_name="/proc_sc_tb/clock" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_sc_tb/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_sc_tb/pc_ld_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pc_ld_en</obj_property>
+      <obj_property name="ObjectShortName">pc_ld_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_sc_tb/clock_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">clock_period</obj_property>
+      <obj_property name="ObjectShortName">clock_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_sc_tb/uut/Inst_Datapath/Inst_MEM/Inst_RAM/ram[1025]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[1025]</obj_property>
+      <obj_property name="ObjectShortName">ram[1025]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_sc_tb/uut/Inst_Datapath/Inst_DECSTAGE/Inst_RFile/daout[16]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[16]</obj_property>
+      <obj_property name="ObjectShortName">daout[16]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_sc_tb/uut/Inst_Datapath/Inst_DECSTAGE/Inst_RFile/daout[10]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[10]</obj_property>
+      <obj_property name="ObjectShortName">daout[10]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_sc_tb/uut/Inst_Datapath/Inst_DECSTAGE/Inst_RFile/daout[5]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[5]</obj_property>
+      <obj_property name="ObjectShortName">daout[5]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_sc_tb/uut/Inst_Datapath/Inst_DECSTAGE/Inst_RFile/daout[4]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[4]</obj_property>
+      <obj_property name="ObjectShortName">daout[4]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_sc_tb/uut/Inst_Datapath/Inst_DECSTAGE/Inst_RFile/daout[3]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[3]</obj_property>
+      <obj_property name="ObjectShortName">daout[3]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_sc_tb/uut/Inst_Datapath/Inst_DECSTAGE/Inst_RFile/daout[1]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[1]</obj_property>
+      <obj_property name="ObjectShortName">daout[1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_sc_tb/uut/Inst_Datapath/Inst_IFSTAGE/Inst_IF_segment/PCC/newpcout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">newpcout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">newpcout[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>

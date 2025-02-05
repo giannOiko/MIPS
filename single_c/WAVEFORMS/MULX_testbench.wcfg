@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/beef/MyProject/MULX_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="mulx_tb" />
+            <top_module name="std_logic_1164" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="4" />
+   <wvobject fp_name="/mulx_tb/alu_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mulx_tb/mem_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mem_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mulx_tb/rf_wrdata_sel" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rf_wrdata_sel</obj_property>
+      <obj_property name="ObjectShortName">rf_wrdata_sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mulx_tb/outt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">outt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">outt[31:0]</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/beef/MyProject/MULINS_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="mulins_tb" />
+            <top_module name="std_logic_1164" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="4" />
+   <wvobject fp_name="/mulins_tb/insadra" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">insadra[4:0]</obj_property>
+      <obj_property name="ObjectShortName">insadra[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mulins_tb/insadrb" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">insadrb[4:0]</obj_property>
+      <obj_property name="ObjectShortName">insadrb[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mulins_tb/rf_b_sel" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rf_b_sel</obj_property>
+      <obj_property name="ObjectShortName">rf_b_sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mulins_tb/adr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">adr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">adr[4:0]</obj_property>
+   </wvobject>
+</wave_config>
