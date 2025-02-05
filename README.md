@@ -1,6 +1,6 @@
 # MIPS
 
-Creating a 32-bit MIPS proccesor with VHDL
+Creating a 32-bit MIPS proccesor with VHDL in 3 different ways.
 
 files include single-cycle, multi-cycle and pipeline implementation.
 
