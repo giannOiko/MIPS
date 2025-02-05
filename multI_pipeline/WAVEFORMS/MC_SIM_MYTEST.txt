@@ -1,0 +1,11 @@
+li  $1 , 9
+lui $2 , 9
+li  $3 , 9
+beq $3 , $1 , 2 --true
+beq $0 , $zero , 0 --doesn't execute
+beq $0 , $zero , 0 --doesn't execute
+add $4 , $1 , $2
+sb  $4 , 0($zero)
+
+
+

@@ -1,0 +1,7 @@
+addi $5 , $zero , 8
+ori  $3 , $zero ,0xABCD
+sw   $3 , 4($zero)
+lw   $10 , -4($5)
+lb   $16 , 4($zero)
+nand $4 , $10 , $16
+

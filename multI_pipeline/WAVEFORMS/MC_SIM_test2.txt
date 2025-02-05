@@ -1,0 +1,3 @@
+bne $5 , $5 , 8 --failed
+b -2  --back to bne and loop..
+addi $1 , $0 , $1 -- never execute

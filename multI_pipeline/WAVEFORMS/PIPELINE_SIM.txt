@@ -1,0 +1,9 @@
+li $1 , 8
+add $2 , $1 , $zero -- forward
+add $3 , $2 , $1 -- double forward
+sw  $3 , 0($zero) -- store forward
+lw  $4 , 0($zero)
+add $5 , $4 , $1 -- bubble, forward
+sw $5 , 4($zero) -- another store forward
+lw $6 , 4($zero)
+sw $6 , 8($zero) -- tricky situation, forwarding from memstage out..
